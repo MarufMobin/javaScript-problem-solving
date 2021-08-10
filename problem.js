@@ -107,13 +107,65 @@
 
 // factorial define 
 
-    let number = 5;
-    let result = 1;
+    // let number = 5;
+    // let result = 1;
 
+    // for( let i = 1; i <= number; i++){
+
+    //     result *= i;
+    // }
+
+    // console.log(result);
+
+
+    // define factorial One More Time 
+
+    /* let number = 5;
+    let result = 1;
     for( let i = 1; i <= number; i++){
 
         result *= i;
     }
+    console.log(result); */
 
+    // let number = 5;
+    // result = 1;
+    // for( let i = 1; i <= number; i++ ){
+
+    //     result *= i;
+    // }
+    // console.log( result );
+
+    let number = 5;
+    let result = 1;
+
+    for( let i = 1; i <= number; i++ ){
+
+        result *= i;
+    }
     console.log(result);
 
+
+    /* let numberOfFact = 5;
+    let fact = 1;
+
+    for( let i = numberOfFact; i >= 1; i-- ){
+
+        fact *= i;
+    }
+    console.log("This is Factorial",fact) */
+
+
+
+
+    let givenNumber = 5;
+    let fact = 1;
+
+    for( let i = givenNumber; i >=1; i-- ){
+
+        fact *= i;
+    }
+    console.log(fact)
+
+
+    
